@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: user
   datasource:
     url: jdbc:mysql://10.80.149.40:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username:  root
@@ -9,4 +11,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
     generate-ddl: true
     hibernate-ddl-auto: update
-    show-sql: true
+    show-sql: true 
+server:
+  port: '7777'
