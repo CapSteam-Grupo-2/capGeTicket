@@ -2,8 +2,8 @@ spring:
   application:
     name: user
   datasource:
-#    url: jdbc:mysql://10.80.149.40:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-    url: jdbc:mysql://192.168.1.63:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://10.80.149.40:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    url: jdbc:mysql://192.168.1.63:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 
     username:  root
     password: root
