@@ -1,13 +1,10 @@
+---
 spring:
   application:
     name: user
   datasource:
-
-#    url: jdbc:mysql://10.80.149.40:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-#    url: jdbc:mysql://192.168.1.63:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-     url: jdbc:mysql://localhost:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-
-    username:  root
+    url: jdbc:mysql://localhost:3306/userdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
     password: root
   jpa:
     properties:
@@ -15,6 +12,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
     generate-ddl: true
     hibernate-ddl-auto: update
-    show-sql: true 
+    show-sql: true
 server:
-  port: '8888'
+  port: "8888"
